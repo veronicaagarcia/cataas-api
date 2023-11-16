@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: rgb(198, 184, 184);
+}
+
+.app-title {
+    text-align: center;
+    color: rgb(211, 133, 76);
+    padding: 20px 0;
+}
+
+.app-fact {
+    text-align: center;
+    margin: auto;
+    width: 40vw;
+    padding-bottom: 20px;
+}
+
+.app-section {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.app-button {
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 30px;
+    border-radius: 15px;
+    border:none;
+    color: whitesmoke;
+    background-color: rgb(211, 133, 76); 
+}
+
+.app-button:hover{
+    color:black;
+    border: dotted black 2px;
+}
+.app-img {
+    width: 280px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+  
